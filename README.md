@@ -20,7 +20,7 @@ npm run build
 ```
 ## Whats inside
 
-Aplication can setup using above simple steps. 
+Aplication can setup using above simple steps. This is a simple application to demostrate how frontend object-relational mapping can use access to the Vuex Store and query available entities using Vuex and Vuex ORM. 
 
 ### Libaries
 Vuex
