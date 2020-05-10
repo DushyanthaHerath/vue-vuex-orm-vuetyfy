@@ -1,6 +1,6 @@
 # Vue Search application using VuexORM
 
-![](Peek.gif)
+![](demo.gif)
 
 ## Project setup
 ```
