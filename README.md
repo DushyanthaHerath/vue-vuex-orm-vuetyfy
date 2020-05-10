@@ -1,11 +1,6 @@
 # Vue search application (Demo)
 
-## Description
-
-This application will demostrate how frontend object-relational mapping can use access to the Vuex Store and query serach inside entities and how to use normalized state shape using Vuex and Vuex ORM. 
-
-UI:
-Vuetify
+## Preview
 
 ![](demo.gif)
 
@@ -23,6 +18,14 @@ npm run serve
 ```
 npm run build
 ```
+## Whats inside
+
+Aplication can setup using above simple steps. 
+
+### Libaries
+Vuex
+Vue ORM
+Vuetify
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
