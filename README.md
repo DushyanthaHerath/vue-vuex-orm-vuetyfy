@@ -1,6 +1,6 @@
 # Vue search application (Demo)
 
-## Contribution
+## Description
 
 This application will demostrate normalizing state shape using Vuex and Vuex ORM and how frontend object-relational mapping can use access to the Vuex Store and query serach inside entities. 
 
