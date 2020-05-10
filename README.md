@@ -1,7 +1,8 @@
-# Vue Search application using VuexORM
+# Vue search application (Demo)
+
 ## Contribution
 
-This application will demostrate normalizing state shape using Vuex and Vuex ORM and how object-relational mapping can use access to the Vuex Store and query serach inside entities. 
+This application will demostrate normalizing state shape using Vuex and Vuex ORM and how frontend object-relational mapping can use access to the Vuex Store and query serach inside entities. 
 
 UI:
 Vuetify
