@@ -1,4 +1,10 @@
 # Vue Search application using VuexORM
+## Contribution
+
+This application will demostrate normalizing state shape using Vuex and Vuex ORM and how object-relational mapping can use access to the Vuex Store and query serach inside entities. 
+
+UI:
+Vuetify
 
 ![](demo.gif)
 
@@ -15,11 +21,6 @@ npm run serve
 ### Compiles and minifies for production
 ```
 npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
 ```
 
 ### Customize configuration
