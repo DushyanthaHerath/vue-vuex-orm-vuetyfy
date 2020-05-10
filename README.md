@@ -1,4 +1,4 @@
-# vue-search
+# Vue Search application using VuexORM
 
 ## Project setup
 ```

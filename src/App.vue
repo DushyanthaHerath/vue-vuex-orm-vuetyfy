@@ -56,7 +56,7 @@
 
       <v-spacer></v-spacer>
 
-      <v-toolbar-title>Application</v-toolbar-title>
+      <v-toolbar-title>Vue Demo Application</v-toolbar-title>
 
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
     </v-app-bar>
@@ -73,6 +73,25 @@
 
       <span class="white--text">&copy; 2020</span>
     </v-footer>
+    <v-dialog
+            v-model="dialog"
+            persistent
+            width="300"
+    >
+      <v-card
+              color="primary"
+              dark
+      >
+        <v-card-text>
+          Please stand by
+          <v-progress-linear
+                  indeterminate
+                  color="white"
+                  class="mb-0"
+          ></v-progress-linear>
+        </v-card-text>
+      </v-card>
+    </v-dialog>
   </v-app>
 </template>
 
@@ -95,13 +114,16 @@
         organizations: [],
         tickets: [],
         users: [],
-      }
+      },
+      dialog: false,
     }),
     created() {
       this.initDataStore();
     },
     methods: {
       initDataStore() {
+        this.dialog = true;
+        setTimeout(() => (this.dialog = false), 1500)
         if(organizations.default && organizations.default.length) {
           organizations.default.forEach(function (item) {
             Organization.insert({ data: item})
