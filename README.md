@@ -1,5 +1,7 @@
 # Vue Search application using VuexORM
 
+![Quick Peek](Peek 2020-04-06 18-17.gif)
+
 ## Project setup
 ```
 npm install
