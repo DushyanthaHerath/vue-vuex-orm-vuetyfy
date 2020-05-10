@@ -4,6 +4,8 @@
 
 ![](demo.gif)
 
+## JSON data already included to project
+
 ## Project setup
 ```
 npm install
